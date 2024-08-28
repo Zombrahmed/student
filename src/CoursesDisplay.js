@@ -11,6 +11,7 @@ export class CoursesDisplay extends Component {
             selectedCourse: null
         }
     }
+    
 
     startEditing = (course) => {
         this.setState({ showEditor: true, selectedCourse: course })

@@ -26,6 +26,7 @@ export class CoursesEditor extends Component {
         this.props.saveCallback(this.state.formData);
     }
 
+    
     render() {
         return <div className="m-2">
             <div className="form-group">
